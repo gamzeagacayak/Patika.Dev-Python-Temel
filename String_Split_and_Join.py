@@ -1,5 +1,5 @@
-//** TASK
-You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
+"""
+TASK: You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
 Function Description
 
@@ -10,7 +10,8 @@ split_and_join has the following parameters:
 string line: a string of space-separated words
 Returns
 
-string: the resulting string**//
+string: the resulting string
+"""
 
 def split_and_join(line):
     # write your code here
