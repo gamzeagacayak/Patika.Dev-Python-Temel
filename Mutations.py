@@ -1,5 +1,5 @@
-//**TASK
-Read a given string, change the character at a given index and then print the modified string.
+"""
+TASK: Read a given string, change the character at a given index and then print the modified string.
 Function Description
 
 Complete the mutate_string function in the editor below.
@@ -11,7 +11,8 @@ int position: the index to insert the character at
 string character: the character to insert
 Returns
 
-string: the altered string**//
+string: the altered string
+"""
 
 def mutate_string(string, position, character):
    return string[:position] + character + string[position + 1:]
